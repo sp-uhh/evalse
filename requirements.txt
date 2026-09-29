@@ -1,0 +1,18 @@
+# Tested with Python 3.11 on Linux (CUDA GPU)
+torch==2.14.0
+torchaudio==2.11.0
+torchcodec==0.16.0
+numpy==2.4.6
+pandas==3.0.6
+librosa==0.11.0
+soundfile==0.14.0
+tqdm==4.70.1
+pesq==0.0.4
+pystoi==0.4.1
+scoreq[gpu]==1.0.1
+onnxruntime-gpu==1.30.0
+distillmos==0.9.1
+# NeMo 3.x no longer provides QuartzNet15x5Base-En
+nemo_toolkit[asr]==2.7.3
+jiwer==3.1.0
+num2words==0.5.14
